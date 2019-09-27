@@ -1,0 +1,23 @@
+{
+  "name": "node.js-regularexp-helper",
+  "version": "1.0.0",
+  "description": "Regular Expression Helper made with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skqoaudgh/Node.js-RegularExp-Helper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skqoaudgh/Node.js-RegularExp-Helper/issues"
+  },
+  "homepage": "https://github.com/skqoaudgh/Node.js-RegularExp-Helper#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
