@@ -8,18 +8,25 @@
     <title>Regular Expression Helper</title>
 </head>
 <body>
-    <div id="container">
-        <form method="POST">
+    <div class="container">
+        <form method="POST" action="/" id="form">
             <label for="reg">정규식</label>
-            <input type="text" name="reg">
+            <input type="text" name="reg" id="reg" autocomplete="off">
             <br>
             <label for="str">문자열</label>
-            <input type="text" name="str">
+            <input type="text" name="str" id="str" autocomplete="off">
             <br>
             <div>
                 <button>실행</button>
             </div>
         </form>
+    </div>
+    <div class="container">
+        <% if(result.error == 1) { %>
+            <p id="error"><%= result.message %></p>
+        <% } else { %>
+            <%- result.message %>
+        <% } %>
     </div>
 </body>
 <script type="text/javascript" src="/script.js"></script>

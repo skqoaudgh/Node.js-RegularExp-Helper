@@ -1,8 +1,9 @@
 body {
     background: rgb(192, 192, 192);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#container {
+.container {
     width: 34rem;
     height: auto;
     margin: auto;
@@ -47,6 +48,15 @@ button:hover {
     color: white;
 }
 
-#container div {
+.container div {
     text-align: right;
+}
+
+#error {
+    color: red;
+    font-size: 18px;
+}
+
+span {
+    background: yellow;
 }
