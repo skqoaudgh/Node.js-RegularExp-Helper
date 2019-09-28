@@ -1,0 +1,52 @@
+body {
+    background: rgb(192, 192, 192);
+}
+
+#container {
+    width: 34rem;
+    height: auto;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 0 12px 2px #777777;
+    background: white;
+}
+
+input[type=text] {
+    width: 25rem;
+    height: 1.5rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    margin: 0.5rem;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    background: rgb(192, 192, 192);
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    outline: none;
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 20px;
+    background: white;
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: 16px;
+    width: 5rem;
+    font-weight: bold;
+}
+
+button:hover {
+    background: rgb(192, 192, 192);
+    color: white;
+}
+
+#container div {
+    text-align: right;
+}
